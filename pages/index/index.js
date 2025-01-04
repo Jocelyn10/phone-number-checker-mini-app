@@ -1,5 +1,5 @@
 Page({
-  handleURLLookup(){
+  handlePhoneNumberChecker(){
     const {
       BASE_URL,
       API_KEY

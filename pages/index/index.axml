@@ -1,9 +1,9 @@
 
 <view>
-  Bienvenue sur URL Lookup pour vérifier la validité des liens de site web
+  Bienvenue sur Phone Number Checker pour vérifier la validité des numéros de téléphone
 </view>
 
 <view>
-  <ant-input placeholder="Saisir le lien de site web. Example: https://google.com ou google.com" allowClear />
-  <ant-button type="primary" onTap="handleURLLookup">Vérifier</ant-button>
+  <ant-input placeholder="Saisir le numéro téléphone avec le code du pays. Example: +243814449163" allowClear />
+  <ant-button type="primary" onTap="handlePhoneNumberChecker">Vérifier</ant-button>
 </view>
