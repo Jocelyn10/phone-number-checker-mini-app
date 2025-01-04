@@ -5,9 +5,9 @@ Page({
       API_KEY
     } = getApp()
 
-    const url = 'google.com'
+    const phoneNumber = '+243814449163'
 
-    const URL = `${BASE_URL}/urllookup?url=${url}`
+    const URL = `${BASE_URL}/validatephone?number=${phoneNumber}`
 
     my.request({
       url: URL,
